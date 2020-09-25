@@ -14,9 +14,7 @@ const Hotels = () => {
             <div className="mt-5 d-flex">
 
                 <div style={{width: '50%'}} className="ml-5">
-                    <p>252 stays Sep 21-20 3 guests</p>
-                    <h4>Stay in Sajek Valley</h4>  
-                    {/* {place.place}  */}
+                    <h4>Stay in {place.name}</h4>  
 
                     {
                         HotelData.map(info => <HotelInfo key={info.id} hotelInfo={info}></HotelInfo>)
