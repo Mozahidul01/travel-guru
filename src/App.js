@@ -28,8 +28,8 @@ function App() {
           <Route path="/travel/:id">
             <Booking></Booking>
           </Route>
-          <PrivateRoute path="/hotels/:name" exact> 
-              <Hotels></Hotels>
+          <PrivateRoute path="/hotels">
+            <Hotels></Hotels>
           </PrivateRoute>
           <Route path="/login">
              <Login></Login>
