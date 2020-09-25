@@ -1,0 +1,82 @@
+.booking{
+    margin-top: -92px;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("../../Images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    padding: 150px 5px 40px 5px;
+    min-height: 100vh;
+}
+
+.back-btn{
+    font-size: 17px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.back-btn:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.booking-form{
+    width: 470px;
+    height: 427px;
+    padding: 30px 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.booking-form label{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #818181;
+    margin: 15px 0 5px 0;
+}
+
+.booking-place{
+    background: #e9e9e9;
+    border-radius: 5px;
+    width: 417px;
+    height: 50px;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    padding-left: 15px;
+}
+
+.date-input{
+    background: #e9e9e9;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.date-field{
+    border: none;
+    width: 80%;
+    margin-left: 10px;
+    background: transparent;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+
+.book-btn {
+    background: #F9A51A;
+    border-radius: 5px;
+    width: 417px;
+    height: 50px;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}

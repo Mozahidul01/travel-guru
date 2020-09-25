@@ -1,0 +1,84 @@
+.home{
+    margin-top: -92px;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("../../Images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    padding: 180px 5px 60px 5px;
+    min-height: 100vh;
+}
+
+.place-details{
+    color: #ffffff;
+    padding: 15px;
+    display: block;
+}
+
+.place-details-name-style{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.details-style{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.booking-btn{
+    padding: 14px 30px;
+    background: #F9A51A;
+    border-radius: 5px;
+    color: #000000;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.booking-btn:hover{
+    background: #5c5c5c;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.card-img{
+    height: 350px;
+    width: 225px;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.place-btn{
+    height: 350px;
+    width: 225px;
+    border-radius: 15px;
+    margin: 20px 10px;
+    background: inherit;
+    border: none;
+    position: relative;
+    color: white;
+}
+
+.card-img:hover{
+    border: 2px solid #FBBC04;
+    border-radius: 20px;
+}
+
+.place-btn:focus{
+    outline: 0;
+    border: none;
+}
+
+.place-name{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.place-name h4{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 38px;
+    text-transform: uppercase;
+}
